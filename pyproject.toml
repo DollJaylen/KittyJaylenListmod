@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "KittyJaylenListmod"
+version = "0.1.0"
+description = "A simple Python library by Jaylen."
+readme = "README.md"
+requires-python = ">=3.7"
+
+authors = [
+    { name = "Jaylen" }
+]
+
+dependencies = [
+    "wcwidth"
+]
